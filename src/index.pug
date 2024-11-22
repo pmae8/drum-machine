@@ -1,0 +1,57 @@
+<body>
+    <div id="drum-machine">
+        <div id="display">   
+
+            <div class="display-text">FCC (β)</div>  
+        </div>
+        <div class="pad-container">
+            <div class="drum-pad" id="Q">Q
+                <audio id="Q" class="clip" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/377560/BLAST.wav"></audio>
+            </div>
+            <div class="drum-pad" id="W">W
+                <audio id="W" class="clip" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/377560/HORN1.wav"></audio>
+            </div>
+            <div class="drum-pad" id="E">E
+                <audio id="E" class="clip" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/377560/HORN2.wav"></audio>
+            </div>
+            <div class="drum-pad" id="A">A
+                <audio id="A" class="clip" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/377560/PAD1.wav"></audio>
+            </div>
+            <div class="drum-pad" id="S">S
+                <audio id="S" class="clip" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/377560/closed.WAV"></audio>
+            </div>
+            <div class="drum-pad" id="D">D
+                <audio id="D" class="clip" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/377560/PAD2.wav"></audio>
+            </div>
+            <div class="drum-pad" id="Z">Z
+                <audio id="Z" class="clip" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/377560/kick.WAV"></audio>
+            </div>
+            <div class="drum-pad" id="X">X
+                <audio id="X" class="clip" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/377560/snare.WAV"></audio>
+            </div>
+            <div class="drum-pad" id="C">C
+                <audio id="C" class="clip" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/377560/open.WAV"></audio>
+            </div>
+        </div>
+        <div class="controls">
+            <div class="control">
+                <label for="power-switch" class="label">Power</label>
+                <div class="switch power-switch">  
+                    <input type="checkbox" id="power-switch" /> 
+                    <div class="knob"></div> 
+                </div>
+            </div>
+            <div class="control">
+                <div class="label">Volume</div>
+                <input type="range" min="0" max="100" value="50" class="slider" id="volume-slider">
+            </div>
+            <div class="control">
+                <label for="bank-switch" class="label">Bank</label>
+                <div class="switch bank-switch">  
+                    <input type="checkbox" id="bank-switch" /> 
+                    <div class="knob"></div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
